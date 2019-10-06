@@ -1,7 +1,7 @@
 class Race:
 
-    def __init__(self, name, power, skill, health):
+    def __init__(self, name, fk, sc, health):
         self.name = name
-        self.power = power
-        self.skill = skill
+        self.fk = fk
+        self.sc = sc
         self.health = health
